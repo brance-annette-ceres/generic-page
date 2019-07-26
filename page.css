@@ -1,0 +1,67 @@
+body { box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+
+body * {box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+main {
+    height: 1000px;
+    width: 100vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 13% 67% 20%;
+    grid-template-rows: 3% 85% 3% 6% 3%;
+}
+
+
+
+header {
+    background-color: palevioletred;
+    grid-area: 1 / 1 / 2 / -1;
+
+}
+
+ul {list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+li {margin-top: 5px;
+
+
+}
+
+
+
+aside{background-color: palegoldenrod;
+    grid-area: 2 / 1 / -1 / 2;
+}
+
+nav {background-color: lightgreen;
+    grid-area: 3 / 2 / 4 / -1;
+}
+
+article{background-color: darkslategray;
+        grid-area: 2 / 2 / 3 / 3;
+
+}
+section{background-color: yellow;
+        grid-area: 2 / 3 / 3 / 4;
+}
+
+footer{background-color: green;
+    grid-area: 4 / 2 / 5 / -1;
+
+}
+
+div {background-color: grey;
+    grid-area: 5 / 2 / 6 / -1;
+
+}
