@@ -102,25 +102,45 @@ section{background-color: white;
         grid-area: 2 / 3 / 3 / 4;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
+
+
 }
 
 .ad-box-1 {
     background-color: white;
     color: black;
+    padding: 20px 10px;
+
 }
 
 .ad-box-2 {
-    background-color: pink;
+    background-color: white;
+    padding: 20px 10px;
 }
 
 .ad-box-3 {
-    background-color: crimson;
+    background-color: white;
+    padding: 20px 10px;
 }
 
 .ad-top {
     background-color: white;
     color: black;
-    border: black solid 2px;
+    border: black solid 1px;
+    height: 25%;
+    width: 100%;
+    display: inline-block;
+    text-align-all: center;
+}
+
+.ad-bottom {background-color: white;
+            border: black solid 1px;
+            height: 43%;
+            width: 100%;
+            padding: auto;
+            margin-top: 20px;
+
+
 }
 
 footer{background-color: green;
