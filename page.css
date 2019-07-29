@@ -76,7 +76,7 @@ aside a {   color: black;
 
 
 aside a:hover {background-color: black;
-    color: white;
+                color: white;
                 width: 100%;
 
 }
@@ -86,7 +86,7 @@ aside h4 {
     padding-left: 8px;
 }
 
-nav {background-color: lightgreen;
+nav {
     grid-area: 3 / 2 / 4 / -1;
 }
 
@@ -146,7 +146,7 @@ section{background-color: white;
     height: 30%;
     width: 100%;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 10%
 }
 
 .ad-bottom {
@@ -168,7 +168,7 @@ nav {
 nav ul{list-style-type: none;
             display: flex;
             justify-content: center;
-            align-items: flex-start;
+
 }
 
 
